@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 public class demo {
 
+
     @Parameters("username")
     @Test
     public void checkSecret(String user){
