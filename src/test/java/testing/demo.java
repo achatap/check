@@ -10,8 +10,9 @@ public class demo {
     @Test
     public void checkSecret(String user){
         System.out.println("Username is "+ user);
-        if(user=="achatap"){
+        if(user.equals("achatap") || user.contains("achatap")){
             System.out.println("username is correct");
         }
+        else System.out.println("user is not correct");
     }
 }
