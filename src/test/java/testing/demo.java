@@ -9,5 +9,8 @@ public class demo {
     @Test
     public void checkSecret(String user){
         System.out.println("Username is "+ user);
+        if(user=="achatap"){
+            System.out.println("username is correct");
+        }
     }
 }
